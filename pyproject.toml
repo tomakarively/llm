@@ -1,0 +1,19 @@
+[project]
+name = "llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "tomak136", email = "tomak1369t@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "sqlitesearch>=0.3.0",
+]
+
+[project.scripts]
+llm = "llm:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
